@@ -24,14 +24,14 @@ Open Postman, click New → HTTP Request, and save it to a collection (e.g., “
 
 Name it Post PickSpot.
 
-* 2. Configure the request
+* **2. Configure the request**
 
 Method: POST
 
 URL: http://localhost:8080/pickSpot
 
 
-3. Set the request body
+* **3. Set the request body**
 
 Select Body → raw → JSON
 
@@ -50,7 +50,7 @@ Paste the JSON payload:
   ]
 }
 
-* 4. Send and verify
+* **4. Send and verify**
 
 Click Send.
 
@@ -61,8 +61,3 @@ On success, you’ll see:
   "targetX": 2,
   "targetY": 2
 }
-
-For the error test, edit the payload so all slots are occupied, then Send again. Expect a 400 Bad Request with:
-
-{"error":"no suitable slot"}
-
