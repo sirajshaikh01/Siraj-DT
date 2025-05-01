@@ -1,4 +1,4 @@
-Prerequisites
+#Prerequisites
 
 Java 23+ installed and available on your PATH (check with java -version).
 
