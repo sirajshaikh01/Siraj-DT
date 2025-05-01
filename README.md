@@ -1,10 +1,18 @@
-#Prerequisites
+**Prerequisites**
 
-Java 23+ installed and available on your PATH (check with java -version).
+Java 24 is installed and available on your PATH.
 
-Maven 3.6+ installed (mvn -v).
+Postman desktop app.
 
-Git for version control (optional but recommended).
+**Setup & Build**
 
-Postman desktop app (optional) for interactive testing.
+Clone the repository:
+
+Build and run using Maven:
+
+mvn clean spring-boot: run
+
+This compiles the code and launches the service on port 8080/pickSpot. You should see a log message:
+
+Tomcat started on port(s): 8080 (http)
 
